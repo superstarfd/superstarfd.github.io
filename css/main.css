@@ -1262,7 +1262,7 @@ header .header-logo a {
   border: none;
   width: 57px;
   height: 27px;
-  background: url("../images/logo.png") no-repeat center;
+  /* background: url("../images/logo.png") no-repeat center; */
   background-size: 57px 27px;
   font: 0/0 a;
   text-shadow: none;
@@ -2000,47 +2000,45 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 
 
 /* ===================================================================
- *  13. portfolio - (_layout.scss)
+ *  13. refresh - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
-#portfolio {
-  background: #FFFFFF;
-  min-height: 800px;
+ #refresh {
   position: relative;
-  padding: 0;
+  padding: 4.2rem 0 12rem;
+  background-color: #FFFFFF;
+  min-height: 696px;
+  text-align: center;
 }
-#portfolio .intro-wrap {
-  padding: 15rem 0 21rem;
-  background: #111111;
+#refresh .about-wrap {
+  max-width: 850px;
 }
-#portfolio .section-intro h3 {
-  color: rgba(242, 242, 242, 0.5);
+#refresh span {
+  color: #07617d;
 }
-#portfolio .section-intro h1 {
-  color: #FFFFFF;
+#refresh h3 {
+  font-family: "montserrat-bold", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.667;
+  color: #07617d;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  position: relative;
 }
-#portfolio .section-intro .lead {
-  color: rgba(242, 242, 242, 0.4);
-}
-#portfolio .portfolio-content {
-  margin-top: -22.2rem;
-}
-#portfolio .bricks-wrapper:before, 
-#portfolio .bricks-wrapper:after {
+#refresh h3::before {
+  display: block;
   content: "";
-  display: table;
+  width: 3px;
+  height: 9.6rem;
+  background-color: rgba(149, 149, 149, 0.7);
+  margin: 0 auto 2.4rem;
 }
-#portfolio .bricks-wrapper:after {
-  clear: both;
-}
-#portfolio .bricks-wrapper .brick {
-  float: left;
-  width: 50%;
-  padding: 0;
-  margin: 0;
-}
-#portfolio .bricks-wrapper .brick:nth-child(2n+1) {
-  clear: both;
+#refresh .lead {
+  font-family: "librebaskerville-bold", serif;
+  font-size: 4rem;
+  line-height: 1.8;
+  color: #2e383f;
+  margin-top: 6rem;
 }
 
 /* ------------------------------------------------------------------- 
