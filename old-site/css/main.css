@@ -2506,7 +2506,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * ------------------------------------------------------------------- */
 #contact {
   background-color: #111111;
-  background-image: url(../images/contact-bg.jpg);
+  
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
